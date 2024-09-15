@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #0cf0d9;
-    --primary-dark: black;
+    --primary-color: #81c3d7;
+    --primary-dark: #16425b;
 }
 
 * {
@@ -42,6 +42,7 @@ header {
     width: 80px; /* Smaller logo size */
     height: auto;  /* Maintain aspect ratio */
     max-width: 100%; /* Ensure the logo scales properly */
+    filter: brightness(250%);
 }
 
 .menu-icon {
