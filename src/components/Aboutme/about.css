@@ -1,6 +1,6 @@
 :root {
     --primary-color:#aaeafe;
-    --primary-dark: #04151f;
+    --primary-dark: #010e15;
     --text-color-dark: #ffffff;
     --hover-color: #f4f4f4;
 }
@@ -52,6 +52,7 @@ body {
     border-radius: 12px;
     margin-left: 5%;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
+    filter:contrast(110%) brightness(110%);
 }
 
 .image-about img:hover {
@@ -64,7 +65,7 @@ body {
     top: 10%;
     left: 10%;
     font-size: 3rem;
-    color: var(--primary-color);
+    color: #aaeafe;
 }
 
 .about-content {
