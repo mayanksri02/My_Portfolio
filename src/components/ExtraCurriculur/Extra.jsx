@@ -9,7 +9,7 @@ const Extra = () => {
             <div className="extra-container">
                 <div className="extra-card">
                     <img src={techno} alt="Technovation Logo" />
-                    <p className="extra-card-position">President (Batch- 2024-2025)</p>
+                    <p className="extra-card-position">Position (Batch- 2024-2025)</p>
                     <p className="extra-card-title">Technovation- the technical club of CSE</p>
                     <div className="extra-more-info">
                         <a href="https://www.instagram.com/technovationabes?igsh=N3E5emVsdDh0dHhw" target="_blank" rel="noopener noreferrer">
@@ -20,7 +20,7 @@ const Extra = () => {
 
                 <div className="extra-card">
                     <img src={salaah} alt="Salaah Logo" />
-                    <p className="extra-card-position">Executive (Batch- 2024-2025)</p>
+                    <p className="extra-card-position">Position (Batch- 2024-2025)</p>
                     <p className="extra-card-title">Salaah: The Mentor Community</p>
                     
                     <div className="extra-more-info">
