@@ -26,7 +26,7 @@ const Header = () => {
                     <li><a href="#education">Education</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#faq">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>

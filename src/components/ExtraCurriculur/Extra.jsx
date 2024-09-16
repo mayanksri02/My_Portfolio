@@ -4,7 +4,7 @@ import "./extra.css";
 
 const Extra = () => {
     return (
-        <div className="extra-contain">
+        <div className="extra-contain" id="extra">
             <p className="extra-title">ExtraCurricular</p>
             <div className="extra-container">
                 <div className="extra-card">

@@ -15,10 +15,10 @@ body {
 
 /* Contact Section */
 .contact-section {
-    padding: 3rem 1rem;
+    padding: 7rem 1rem;
     text-align: center;
     color: white;
-    margin-top: 6rem;
+    margin-top: 2rem;
 }
 
 /* Contact Title */
@@ -26,7 +26,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2rem;
-    color: #0cf0d9;
+    color: #aaeafe;
 }
 
 /* Contact Container */
@@ -71,7 +71,7 @@ body {
 }
 
 .contact-form input[type="submit"] {
-    background-color: #0cf0d9;
+    background-color: rgb(193, 253, 255);
     border: none;
     padding: 15px;
     border-radius: 5px;
@@ -79,10 +79,11 @@ body {
     color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-weight: bold;
 }
 
 .contact-form input[type="submit"]:hover {
-    background-color: #08c3b5;
+    background-color: #6cbfd8;
 }
 
 /* Info Column */
@@ -100,7 +101,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #333;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     max-width: 350px; /* Set a max width for uniform size */
@@ -116,26 +117,26 @@ body {
 
 /* Coffee Section */
 .coffee-icon {
-    font-size: 2.5rem; /* Reduced size for better fit */
-    color: #0cf0d9;
+    font-size: 2rem; /* Reduced size for better fit */
+    color: rgb(193, 253, 255);
     margin-bottom: 0.5rem;
 }
 
 .coffee-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #fff;
     margin-bottom: 0.5rem;
 }
 
 .coffee-support {
     font-size: 1.2rem;
-    color: #08c3b5;
+    color: rgb(193, 253, 255);
     margin-bottom: 1rem;
 }
 
 .coffee-link a {
     font-size: 1.1rem;
-    color: #0cf0d9;
+    color: rgb(193, 253, 255);
     text-decoration: none;
 }
 
@@ -145,26 +146,26 @@ body {
 
 /* Email Section */
 .email-icon {
-    font-size: 2.5rem; /* Reduced size for better fit */
-    color: #0cf0d9;
+    font-size: 2rem; /* Reduced size for better fit */
+    color: rgb(193, 253, 255);
     margin-bottom: 0.5rem;
 }
 
 .email-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #fff;
     margin-bottom: 0.5rem;
 }
 
 .email-address {
     font-size: 1.2rem;
-    color: #08c3b5;
+    color: rgb(193, 253, 255);
     margin-bottom: 1rem;
 }
 
 .email-link a {
     font-size: 1.1rem;
-    color: #0cf0d9;
+    color: rgb(193, 253, 255);
     text-decoration: none;
 }
 
@@ -178,7 +179,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #0cf0d9;
+    background-color: rgb(193, 253, 255);
     color: black;
     padding: 20px;
     border-radius: 10px;
@@ -188,7 +189,7 @@ body {
 }
 
 .popup button {
-    background-color: #08c3b5;
+    background-color: rgb(193, 253, 255);
     border: none;
     padding: 10px 20px;
     color: black;
@@ -200,7 +201,7 @@ body {
 }
 
 .popup button:hover {
-    background-color: #07a89e;
+    background-color: rgb(193, 253, 255);
 }
 
 /* Responsive Design */

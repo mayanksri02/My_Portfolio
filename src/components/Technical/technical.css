@@ -15,14 +15,14 @@ body {
 .technical {
     padding: 2rem;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 2rem;
 }
 
 .technical-title {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2rem;
-    color: #0cf0d9; /* Bright contrast color */
+    color: #aaeafe;
 }
 
 .technical-content {
@@ -36,24 +36,25 @@ body {
     background: #1e1e1e; /* Dark background for boxes */
     border: 2px solid #ff5722; /* Contrast border color */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 1.5rem;
     width: 350px; /* Increased width */
     text-align: left;
     display: flex;
     flex-direction: column;
     overflow: hidden; /* Ensure content doesn't overflow */
+    box-shadow: 0 0 10px #ff5722;
 }
 
 .technical-box:nth-child(2) {
     background: #2c2c2c; /* Different background color for second box */
     border: 2px solid #ff9800; /* Different border color */
+    box-shadow: 0 0 10px #ff9800;
 }
 
 .technical-box h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #0cf0d9; /* Bright color for headings */
+    color: #d1f4ff; /* Bright color for headings */
 }
 
 .technical-items {
@@ -72,7 +73,7 @@ body {
 
 .technical-item:hover {
     background-color: #333; /* Change background on hover */
-    color: #0cf0d9; /* Change text color on hover */
+    color: #aaeafe; /* Change text color on hover */
 }
 
 .technical-icon {
