@@ -14,13 +14,13 @@ body {
     font-weight: bold;
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--primary-color, #007bff);
+    color: var(--primary-color);
 }
 .faqs_container {
     font-family: 'Arial', sans-serif;
     max-width: 700px;
     margin: 50px auto;
-    margin-top: 6rem;
+    padding-top: 6rem;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -93,14 +93,16 @@ body {
 
 /* Additional styles for better visuals */
 .faqs_container .faq_header {
-    background-color: #F4CE14; /* Change the background color to a different shade */
+    background-color: rgb(193, 253, 255); /* Change the background color to a different shade */
     border-radius: 10px;
     margin: 10px 0;
-    color: black;
+    color: #16425b;
 }
 
 .faqs_container .faq_header:hover {
-    background-color: #84f198; /* Slightly darker on hover */
+    background-color: #16425b; /* Slightly darker on hover */
+    color: #d9dcd6;
+
 }
 
 .faqs_container .faq_header h3 {
@@ -134,7 +136,7 @@ body {
 }
 
 .faqs_container .faq_header .close.active {
-    color: #4CAF50;
+    color: #81c3d7;
 }
 
 /* Responsive layout for tablets and smaller devices */

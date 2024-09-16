@@ -1,6 +1,6 @@
 :root {
-    --primary-color:#0cf0d9;
-    --primary-dark: #000000;
+    --primary-color:#aaeafe;
+    --primary-dark: #010e15;
     --text-color-dark: #ffffff;
     --hover-color: #f4f4f4;
 }
@@ -40,7 +40,7 @@ body {
 
 .images img {
     position: relative;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 .images::before {
@@ -48,11 +48,11 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 55%;
-    top: -16px;
+    left: 53%;
+    top: -9px;
     transform: translateX(-50%);
-    border-radius: 12px;
-    background: var(--primary-color);
+    border-radius: 5px;
+    background: #aaeafe;
 }
 
 .images {
@@ -101,7 +101,8 @@ body {
 }
 
 .social a:hover {
-    color: var(--primary-color);
+    color: #aaeafe;
+    filter: drop-shadow(0 0 2px white);
     transform: scale(1.1) translateY(-5%);
 }
 

@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #0cf0d9;
-    --primary-dark: black;
+    --primary-color: #81c3d7;
+    --primary-dark: #010e15;
 }
 
 * {
@@ -42,23 +42,25 @@ header {
     width: 80px; /* Smaller logo size */
     height: auto;  /* Maintain aspect ratio */
     max-width: 100%; /* Ensure the logo scales properly */
+    filter: brightness(250%);
 }
 
 .menu-icon {
     font-size: 1.8rem; /* Slightly smaller icon size */
     cursor: pointer;
-    color: var(--primary-color);
+    color: #aaeafe;
 }
 
 /* Dropdown Menu */
 .dropdown-menu {
     display: none;
-    background-color: var(--primary-dark);
+    background-color: #010e15;
     position: absolute;
     top: 50px; /* Adjust top position to align with the smaller header */
     right: 10px;
     padding: 2rem; /* Adjust padding to match the smaller header */
     box-shadow: 0 4px 17px rgba(80, 80, 80, 0.31);
+    border-radius: 5px;
 }
 
 .dropdown-menu.open {
@@ -75,7 +77,7 @@ header {
 }
 
 .dropdown-menu ul li a {
-    color: var(--primary-color);
+    color: #aaeafe;
     text-decoration: none;
     font-size: 1rem; /* Slightly smaller font size */
     transition: color 0.3s;
@@ -83,6 +85,7 @@ header {
 
 .dropdown-menu ul li a:hover {
     color: #fff;
+    filter: drop-shadow(0 0 7px #aaeafe);
 }
 
 /* Responsive for larger screens */

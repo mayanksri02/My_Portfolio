@@ -2,7 +2,7 @@ import "./timeline.css";
 
 const Timeline = () => {
     return (
-        <div className="timeline-box">
+        <div className="timeline-box" id="education">
             <p className="timeline-title">Timeline of Education</p>
             <div className="timeline">
                 <div className="timeline-container right">

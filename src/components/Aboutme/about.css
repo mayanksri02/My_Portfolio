@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #0bcdb9;
-    --primary-dark: #000000;
+    --primary-color:#aaeafe;
+    --primary-dark: #010e15;
     --text-color-dark: #ffffff;
     --hover-color: #f4f4f4;
 }
@@ -22,14 +22,14 @@ body {
     font-weight: bold;
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--primary-color, #0cf0d9);
+    color: #aaeafe;
     letter-spacing: 1px;
 }
 
 .about-container {
-    padding: 4rem 6rem;
+    padding: 7rem 6rem;
     gap: 2rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 .about {
@@ -39,6 +39,7 @@ body {
     background-color: var(--primary-dark);
     color: var(--text-color-dark);
     transition: padding 0.3s ease;
+    border-radius: 7px;
 }
 
 .image-about {
@@ -49,7 +50,9 @@ body {
 .image-about img {
     width: 100%;
     border-radius: 12px;
+    margin-left: 5%;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
+    filter:contrast(110%) brightness(110%);
 }
 
 .image-about img:hover {
@@ -62,7 +65,7 @@ body {
     top: 10%;
     left: 10%;
     font-size: 3rem;
-    color: var(--primary-color);
+    color: #aaeafe;
 }
 
 .about-content {
@@ -72,6 +75,7 @@ body {
     color: var(--text-color-dark);
     border-radius: 12px;
     animation: fadeIn 2s ease forwards;
+    margin-left: 2%;
 }
 
 .about-content p {
@@ -106,7 +110,7 @@ body {
 .btn-download, .btn-talk {
     text-decoration: none;
     padding: 0.75rem 2rem;
-    background-color: var(--primary-color);
+    background-color: #aaeafe;
     color: black;
     border-radius: 6px;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -116,6 +120,7 @@ body {
 .btn-download:hover, .btn-talk:hover {
     background-color: var(--hover-color);
     color: var(--primary-dark);
+    box-shadow: 0 0 10px #aaeafe;
 }
 
 /* Animation */

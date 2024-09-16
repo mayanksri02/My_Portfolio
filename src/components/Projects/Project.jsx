@@ -14,7 +14,7 @@ const Project = () => {
     };
 
     return (
-        <div className="projects-container">
+        <div className="projects-container" id="projects">
             <p className="project-title">Projects</p>
             <div className="project-buttons">
                 <button onClick={() => handleCategoryChange('all')}>All</button>
