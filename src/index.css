@@ -6,3 +6,18 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #aaeafe; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #01151f; 
+}
