@@ -30,9 +30,9 @@ Here are some technologies I’ve been working with:
 - **B.Tech**: ABES Engineering College (2022-2026) - Computer Science and Engineering
 
 ## Extracurricular
-- **President** of Technovation (2024-2025), the technical club of CSE.
-- **Executive** at Salaah: The Mentor Community (2024-2025).
-![image](https://github.com/user-attachments/assets/64efa96a-31b3-4d24-a0b3-7480bb021bce)
+- **Position** of Technovation (2024-2025), the technical club of CSE.
+- **Position** at Salaah: The Mentor Community (2024-2025).
+
 
 ## FAQ
 - **Who am I?**: A third-year engineering student passionate about web development.
